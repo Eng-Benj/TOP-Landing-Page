@@ -1,0 +1,94 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .section {
+    display: flex;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+.header {
+    justify-content: space-between;
+    padding: 8px 128px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.section.one {
+    padding: 64px 128px;
+    gap: 32px;
+}
+
+.section.one > .img {
+    padding: 64px;
+    flex: 0 0 auto;
+}
+
+.section.two {
+    flex-direction: column;
+    padding: 32px 128px;
+    align-items: center;
+    gap: 32px;
+}
+
+.images {
+    display: flex;
+    gap: 32px;
+    text-align: center;
+}
+
+.images > .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image > .img {
+    display: flex;
+    width: 128px;
+    height: 128px;
+    align-items: center;
+}
+
+.section.three {
+    flex-direction: column;
+    padding: 64px 128px;
+    align-items: center;
+}
+
+.section.three > .author {
+    align-self: flex-end;
+}
+
+.section.four {
+    padding: 64px 128px;
+    justify-content: center;
+}
+
+.popup {
+    display: flex;
+    padding: 32px 64px;
+    gap: 64px;
+}
+
+.popup > button {
+    padding: 0px 16px;
+}
+
+.footer {   
+    justify-content: center;
+    padding: 8px 128px;
+    align-items: center;
+}
